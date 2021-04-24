@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Covid-19 Cases By Country</title>
+    
+    
+</head>
+<body>
+
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+  <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+  
+  <link rel="stylesheet" href="main copy.css">
+<div id=container>
+  <div id="container1">
+      <div class="loading">
+          <i class="icon-spinner icon-spin icon-large"></i>
+          Loading data...
+      </div>
+  </div>
+
+  <div id="container2" style="visibility: hidden;">
+      <h4 style="margin-top:6px"></h4>
+      <i1>Total Confirmed Cases:</i1>
+      <i20></i20>
+
+      <br>
+      <br>
+      
+      <i2>Percentage of Population affected:</i2>
+      <i22></i22>
+      <br>
+      <br>
+
+      <table style="width:50%">
+        <tr>
+          <th class="cell">Date</th>
+          <th class="cell">Cases</th> 
+          <th class="cell">Change</th>
+        </tr>
+        <tr>
+          <td class="cell"><i3> 4-Apr </i3></td>
+          <td class="cell"><i4></i4></td> 
+          <td class="cell" style="color:red"><i5></i5></td>
+        </tr>
+        <tr>
+            <td class="cell"><i6> 3-Apr </i6></td>
+            <td class="cell"><i7></i7></td> 
+            <td class="cell" style="color:red"><i8></i8></td>
+        </tr>
+        <tr>
+            <td class="cell"><i9> 2-Apr </i9></td>
+            <td class="cell"><i10></i10></td> 
+            <td class="cell" style="color:red"><i11></i11></td>
+        </tr>
+        <tr>
+            <td class="cell"><i12> 1-Apr </i12></td>
+            <td class="cell"><i13></i13></td> 
+            <td class="cell" style="color:red"><i14></i14></td>
+        </tr>
+        <tr>
+            <td class="cell"><i15> 31-Mar </i15></td>
+            <td class="cell"><i16></i16></td> 
+            <td class="cell" style="color:red"><i17></i17></td>
+        </tr>
+      </table>
+  </div>
+
+  <div id="container3" style="visibility: hidden;margin-bottom:5px;">
+    <h4 id="News" style="margin-bottom:0px">Latest News of COVID-19</h4>
+    <i18 style="margin-top:0px;margin-left: 6px;"></i18>
+    <br>
+    <div class="news1" style="visibility: hidden;" >
+      
+    </div>
+    <div class="news2" style="visibility: hidden;">
+      
+    </div>
+    <div class="news3" style="visibility: hidden;">
+      
+    </div>
+
+
+</div>
+
+  
+
+  
+</div>
+<script src="javascript.js"></script>
+
+</body>
+</html>
